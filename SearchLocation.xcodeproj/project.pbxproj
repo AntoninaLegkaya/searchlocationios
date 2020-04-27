@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3F3DA7245712900052811D /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F3DA6245712900052811D /* LocationSearchTable.swift */; };
 		CE46AA672456DDC70096C6EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AA662456DDC70096C6EA /* AppDelegate.swift */; };
 		CE46AA692456DDC70096C6EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AA682456DDC70096C6EA /* SceneDelegate.swift */; };
 		CE46AA6B2456DDC70096C6EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AA6A2456DDC70096C6EA /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE3F3DA6245712900052811D /* LocationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
 		CE46AA632456DDC70096C6EA /* SearchLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE46AA662456DDC70096C6EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE46AA682456DDC70096C6EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				CE46AA6F2456DDC90096C6EA /* Assets.xcassets */,
 				CE46AA712456DDC90096C6EA /* LaunchScreen.storyboard */,
 				CE46AA742456DDC90096C6EA /* Info.plist */,
+				CE3F3DA6245712900052811D /* LocationSearchTable.swift */,
 			);
 			path = SearchLocation;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				CE46AA6B2456DDC70096C6EA /* ViewController.swift in Sources */,
 				CE46AA672456DDC70096C6EA /* AppDelegate.swift in Sources */,
 				CE46AA692456DDC70096C6EA /* SceneDelegate.swift in Sources */,
+				CE3F3DA7245712900052811D /* LocationSearchTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
