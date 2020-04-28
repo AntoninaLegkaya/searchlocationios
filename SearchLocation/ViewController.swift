@@ -79,7 +79,7 @@ class ViewController: UIViewController {
             mapView.showsCompass = true
             mapView.showsScale = true
             mapView.showsUserLocation = true
-        
+        // instantiate search viewCntroller
         let locationSearchTable = storyboard!.instantiateViewController(identifier: "LocationSearchTable") as! LocationSearchTable
         resultSearchController = UISearchController(searchResultsController: locationSearchTable)
         resultSearchController?.searchResultsUpdater = locationSearchTable as UISearchResultsUpdating
@@ -94,7 +94,6 @@ class ViewController: UIViewController {
         // gives the modal overlay a semi-transparent background when the search bar is selected
         resultSearchController?.dimsBackgroundDuringPresentation = true
         definesPresentationContext = true
-        
         
         // start get/update location
         locationSearchTable.mapView = mapView
@@ -125,16 +124,11 @@ extension ViewController: CLLocationManagerDelegate{
     
      func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
         stepCounter += 1
-        
-      
-        
-        
     }
     
   @objc  func getDirections(){
         if let selectedPin = selectedPin{
             let mapItem = MKMapItem(placemark: selectedPin)
-            
             
             let launchOptions = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving]
             mapItem.openInMaps(launchOptions: launchOptions)

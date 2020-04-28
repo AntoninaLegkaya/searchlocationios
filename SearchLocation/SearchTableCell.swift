@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 class SearchTableCell: UITableViewCell{
     
-    
     override func awakeFromNib() {
          super.awakeFromNib()
          // Initialization code
@@ -21,7 +20,5 @@ class SearchTableCell: UITableViewCell{
 
          // Configure the view for the selected state
      }
-    
-    
     
 }
